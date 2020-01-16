@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menuactivity2.MainActivity">
+
+    <item
+        android:id="@+id/LogIn"
+        android:orderInCategory="100"
+        android:title="LogIn"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/Register"
+        android:orderInCategory="100"
+        android:title="Register"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/Exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="collapseActionView" />
+</menu>
